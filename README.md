@@ -16,4 +16,7 @@ docker run --name test --rm -p 7860:7860 test:latest
 
 http://localhost:7860/generate?text="your text"
 
+Swagger:
+http://localhost:7860/docs
+
 Ctrl+c on terminal - terminate container
